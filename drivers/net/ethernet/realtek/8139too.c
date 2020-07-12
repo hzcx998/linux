@@ -199,7 +199,7 @@ static int debug = -1;
 
 /* The following settings are log_2(bytes)-4:  0 == 16 bytes .. 6==1024, 7==end of packet. */
 #define RX_FIFO_THRESH	7	/* Rx buffer level before first PCI xfer.  */
-#define RX_DMA_BURST	7	/* Maximum PCI burst, '6' is 1024 */
+#define RX_DMA_BURST	7	/* Maximum PCI burst, '7' is unlimited */
 #define TX_DMA_BURST	6	/* Maximum PCI burst, '6' is 1024 */
 #define TX_RETRY	8	/* 0-15.  retries = 16 + (TX_RETRY * 16) */
 
